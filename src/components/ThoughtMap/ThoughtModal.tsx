@@ -5,15 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { getThought, type Thought } from "@/data/thoughts";
 import { projects } from "@/data/projects";
 import { useMediaQuery } from "@/lib/useMediaQuery";
-
-const CATEGORY_LABEL: Record<Thought["category"], string> = {
-  interest: "Interest",
-  industry: "Industry",
-  concept: "Concept",
-  place: "Place",
-  value: "Value",
-  skill: "Practice",
-};
+import { CATEGORY_LABEL } from "./categoryStyles";
 
 const DESKTOP_PANEL_VARIANTS = {
   hidden: { opacity: 0, x: 32 },

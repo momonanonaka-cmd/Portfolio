@@ -11,6 +11,14 @@
   --color-hairline-strong: #d3ccb8;
   --color-accent: #a07c52;
 
+  /* Thought Map category colors — muted, validated for CVD-distinctness */
+  --color-cat-industry: #3e72af;
+  --color-cat-interest: #b85a2e;
+  --color-cat-concept: #33996f;
+  --color-cat-place: #d4a017;
+  --color-cat-value: #7a3a8a;
+  --color-cat-skill: #96303f;
+
   --font-serif: var(--font-cormorant);
   --font-sans: var(--font-inter);
 

@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import type { CSSProperties } from "react";
 import type { Thought } from "@/data/thoughts";
 import { cn } from "@/lib/utils";
+import { CATEGORY_COLOR, withAlpha } from "./categoryStyles";
 
 const SIZE_STYLES: Record<Thought["size"], { diameter: string; font: string; baseOpacity: number }> = {
   large: { diameter: "clamp(58px, 7.4vw, 104px)", font: "clamp(0.85rem, 1.1vw, 1.05rem)", baseOpacity: 1 },
@@ -46,6 +47,7 @@ export function ThoughtNode({
 
   const active = isSelected || isHovered;
   const showLabel = thought.size === "large" || active || isRelatedToActive;
+  const color = CATEGORY_COLOR[thought.category];
 
   const style: CSSProperties = {
     left: `${thought.x}%`,
@@ -79,12 +81,11 @@ export function ThoughtNode({
         style={{ width: sizing.diameter, height: sizing.diameter }}
       >
         <span
-          className={cn(
-            "absolute inset-0 rounded-full border transition-colors duration-300",
-            active
-              ? "border-ink bg-ink/[0.06]"
-              : "border-hairline-strong bg-charcoal/[0.04] group-hover:border-graphite"
-          )}
+          className="absolute inset-0 rounded-full border transition-colors duration-300"
+          style={{
+            borderColor: active ? color : withAlpha(color, 0.4),
+            backgroundColor: withAlpha(color, active ? 0.16 : 0.08),
+          }}
         />
         {isSelected && (
           <motion.span

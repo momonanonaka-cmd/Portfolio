@@ -2,13 +2,23 @@
 
 import { useMemo, useRef } from "react";
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { thoughts, getThought } from "@/data/thoughts";
+import { thoughts, getThought, type Thought } from "@/data/thoughts";
 import { ThoughtNode } from "./ThoughtNode";
 import { ThoughtConnections } from "./ThoughtConnections";
 import { ThoughtModal } from "./ThoughtModal";
 import { useThoughtMap } from "./ThoughtMapContext";
 import { useMediaQuery, usePrefersReducedMotion } from "@/lib/useMediaQuery";
 import { RevealText } from "../RevealText";
+import { CATEGORY_COLOR, CATEGORY_LABEL } from "./categoryStyles";
+
+const CATEGORY_ORDER: Thought["category"][] = [
+  "industry",
+  "interest",
+  "concept",
+  "place",
+  "value",
+  "skill",
+];
 
 export function ThoughtMap() {
   const { selectedId, hoveredId, select, setHovered } = useThoughtMap();
@@ -62,6 +72,22 @@ export function ThoughtMap() {
         >
           Every point below is a subject, question, or idea that shapes how I see things.
           Hover to see how they connect. Click one to read more.
+        </RevealText>
+
+        <RevealText
+          delay={0.22}
+          className="mt-8 flex flex-wrap gap-x-5 gap-y-2"
+        >
+          {CATEGORY_ORDER.map((cat) => (
+            <span key={cat} className="flex items-center gap-2 text-xs text-graphite">
+              <span
+                aria-hidden
+                className="h-2 w-2 rounded-full"
+                style={{ backgroundColor: CATEGORY_COLOR[cat] }}
+              />
+              {CATEGORY_LABEL[cat]}
+            </span>
+          ))}
         </RevealText>
       </div>
 
