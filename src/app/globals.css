@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-paper: #faf8f3;
+  --color-paper-dim: #f2efe7;
+  --color-ink: #16150f;
+  --color-charcoal: #2c2a24;
+  --color-graphite: #6e6a5f;
+  --color-mist: #a8a396;
+  --color-hairline: #e4dfd0;
+  --color-hairline-strong: #d3ccb8;
+  --color-accent: #a07c52;
+
+  --font-serif: var(--font-cormorant);
+  --font-sans: var(--font-inter);
+
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  /* The site is intentionally monochrome / light. If a future dark palette
+     is desired, define it here without touching components. */
+}
+
+* {
+  border-color: var(--color-hairline);
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "liga" 1, "kern" 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+::selection {
+  background: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* Visible, editorial focus ring */
+:focus-visible {
+  outline: 1.5px solid var(--color-ink);
+  outline-offset: 3px;
+}
+
+/* Shared editorial utilities */
+.eyebrow {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--color-graphite);
+}
+
+.hover-underline {
+  position: relative;
+  text-decoration: none;
+}
+.hover-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -0.15em;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.45s var(--ease-editorial);
+}
+.hover-underline:hover::after,
+.hover-underline:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(var(--drift-x, 6px), calc(var(--drift-y, 8px) * -1));
+  }
+  50% {
+    transform: translate(calc(var(--drift-x, 6px) * -0.6), var(--drift-y, 8px));
+  }
+  75% {
+    transform: translate(calc(var(--drift-x, 6px) * 0.8), calc(var(--drift-y, 8px) * 0.4));
+  }
+}
+
+.animate-drift {
+  animation: drift var(--drift-duration, 16s) ease-in-out infinite;
+  animation-delay: var(--drift-delay, 0s);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-drift {
+    animation: none;
+  }
+}
