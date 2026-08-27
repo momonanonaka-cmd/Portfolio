@@ -38,7 +38,7 @@ export const thoughts: Thought[] = [
     x: 8,
     y: 18,
     description:
-      "I'm less interested in finance as a career track than as a language for describing risk, time, and trust between strangers.",
+      "Interested in capital markets, M&A synergies, and strategy — less the deals themselves than what they reveal about how value actually gets created, and who ends up capturing it.",
     related: ["markets", "investment-banking", "capital", "risk", "trust"],
   },
   {

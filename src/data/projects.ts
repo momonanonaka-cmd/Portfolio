@@ -42,6 +42,18 @@ export const projects: Project[] = [
     longDescription:
       "More than 15.6 million dogs and cats live in Japan, but unlike human medicine, Japan has no nationwide blood-supply network for them — veterinary hospitals largely have to secure donors themselves, and owners are sometimes asked to find a donor for their own pet. Connect.inc brings pet owners, eligible blood donors, and veterinary hospitals into one network: hospitals post urgent requests with blood type and available slots, owners register healthy dogs as donors with pedigree, medical history, and blood typing on file, and the two sides match, book, and chat directly for pre-visit screening. Connecting blood. Connecting owners. Connecting hospitals. Connecting lives.",
     image: "/projects/connect.jpg",
+    gallery: [
+      {
+        type: "image",
+        src: "/projects/connect/app-mockup-japanese.jpg",
+        label: "App Mockup — Japanese",
+      },
+      {
+        type: "image",
+        src: "/projects/connect/app-mockup-english.jpg",
+        label: "App Mockup — English",
+      },
+    ],
     externalUrl: "https://connecttblood.netlify.app/",
     relatedThoughts: ["animals", "healthcare", "care", "technology", "systems", "japan"],
   },
