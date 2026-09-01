@@ -7,7 +7,7 @@ export const site = {
   name: "Momona Nonaka",
   initials: "MN",
 
-  role: "Finance · Business · Creator · Marketing · Technology ",
+  role: "Business · Finance · Marketing · Technology ",
 
   // Shown large in the hero
   tagline:

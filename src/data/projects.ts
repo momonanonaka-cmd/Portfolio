@@ -99,6 +99,31 @@ export const projects: Project[] = [
       { type: "image", src: "/projects/ivy/night-menu.jpg", label: "IVY New York — Night Menu" },
       { type: "image", src: "/projects/ivy/press-feature.jpg", label: "IVY New York — Press feature" },
       {
+        type: "image",
+        src: "/projects/ivy/ig-device-1.jpg",
+        label: "IVY New York — IG Carousel: Bring the Salon Home (1/5)",
+      },
+      {
+        type: "image",
+        src: "/projects/ivy/ig-device-2.jpg",
+        label: "IVY New York — IG Carousel: Bring the Salon Home (2/5)",
+      },
+      {
+        type: "image",
+        src: "/projects/ivy/ig-device-3.jpg",
+        label: "IVY New York — IG Carousel: Bring the Salon Home (3/5)",
+      },
+      {
+        type: "image",
+        src: "/projects/ivy/ig-device-4.jpg",
+        label: "IVY New York — IG Carousel: Bring the Salon Home (4/5)",
+      },
+      {
+        type: "image",
+        src: "/projects/ivy/ig-device-5.jpg",
+        label: "IVY New York — IG Carousel: Bring the Salon Home (5/5)",
+      },
+      {
         type: "video",
         src: "/projects/ivy/reel-01.mp4",
         poster: "/projects/ivy/reel-01.jpg",

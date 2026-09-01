@@ -38,7 +38,7 @@ export const thoughts: Thought[] = [
     x: 8,
     y: 18,
     description:
-      "Interested in capital markets, M&A synergies, and strategy — less the deals themselves than what they reveal about how value actually gets created, and who ends up capturing it.",
+      "What interests me about finance is thinking about how different financial tools can create value for a company—whether that means identifying synergies through M&A, optimizing its capital structure, or finding the right mix of debt, equity, and other financing alternatives.",
     related: ["markets", "investment-banking", "capital", "risk", "trust"],
   },
   {
@@ -49,7 +49,7 @@ export const thoughts: Thought[] = [
     x: 20,
     y: 10,
     description:
-      "Markets are less about prices than about the collective, constantly-revised guess of what everyone else believes.",
+      "Interested in understanding market movements—not simply how prices change, but how every movement reflects a constantly evolving collective view of information, expectations, and risk.",
     related: ["finance", "consumer-psychology", "risk", "scarcity"],
   },
   {
@@ -60,7 +60,7 @@ export const thoughts: Thought[] = [
     x: 6,
     y: 34,
     description:
-      "A front-row seat to how capital gets allocated, and to the incentives that shape those decisions.",
+      "Experienced as Summer Analyst at J.P.Morgan. Analytical thinking, attention to detail, financial modeling and valuation skills, and the ability to communicate complex financial ideas clearly while working collaboratively in a fast-paced environment. ",
     related: ["finance", "capital", "strategy"],
   },
   {
@@ -71,7 +71,7 @@ export const thoughts: Thought[] = [
     x: 28,
     y: 28,
     description:
-      "Capital is a tool, not a goal — the interesting question is always what it unlocks.",
+      "Interested in how capital can be strategically deployed to create and maximize corporate value through M&A, debt and equity financing, capital markets, and other financial solutions.",
     related: ["finance", "entrepreneurship", "innovation", "opportunity"],
   },
   {
@@ -82,7 +82,7 @@ export const thoughts: Thought[] = [
     x: 16,
     y: 5,
     description:
-      "Most decisions are really decisions about which risks are worth taking on.",
+      "I see risk as an opportunity to challenge myself and build confidence. Taking calculated risks pushes me beyond what I already know and often leads to the greatest growth. ",
     related: ["finance", "markets", "decision-making"],
   },
   {
@@ -92,7 +92,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 33,
     y: 15,
-    description: "The real currency underneath every market and every relationship.",
+    description: "",
     related: ["finance", "human-behavior", "community"],
   },
   {
@@ -102,7 +102,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 3,
     y: 24,
-    description: "Show me the incentive and I'll show you the outcome.",
+    description: "",
     related: ["finance", "decision-making", "markets"],
   },
 
@@ -115,7 +115,7 @@ export const thoughts: Thought[] = [
     x: 58,
     y: 14,
     description:
-      "I'm interested less in technology itself than in how it changes existing systems, behaviors, and industries.",
+      "Continuously learning how to use technology more effectively and staying current with emerging tools and skills. I’m interested in how technology can simplify processes, improve efficiency, and turn ideas into practical solutions.",
     related: ["ai", "systems", "infrastructure", "innovation", "japan"],
     projects: ["connect", "travel-infrastructure"],
   },
@@ -127,7 +127,7 @@ export const thoughts: Thought[] = [
     x: 73,
     y: 8,
     description:
-      "The most interesting AI questions aren't technical — they're about trust, adoption, and what we're willing to delegate.",
+      "Using AI to research, build, analyze, and turn ideas into working solutions faster. AI-assisted coding · Research & analysis · Rapid prototyping · Prompt engineering · Content creation · Workflow optimization, Skills & Tools: ChatGPT · Claude Code · Gemini · Copilot · Cursor · Perplexity · NotebookLM · Canva AI",
     related: ["technology", "automation", "consumer-adoption", "data", "human-behavior"],
     projects: ["pet-wellness-ai"],
   },
@@ -138,7 +138,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 50,
     y: 31,
-    description: "I tend to see problems as systems first, decisions second.",
+    description: "",
     related: ["technology", "infrastructure", "efficiency"],
     projects: ["connect"],
   },
@@ -150,7 +150,7 @@ export const thoughts: Thought[] = [
     x: 83,
     y: 23,
     description:
-      "The unglamorous layer underneath every industry that actually determines what's possible.",
+      "",
     related: ["technology", "travel", "systems", "economic-development"],
     projects: ["travel-infrastructure"],
   },
@@ -161,7 +161,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 64,
     y: 29,
-    description: "Rarely a single invention — usually an old idea meeting a new incentive.",
+    description: "",
     related: ["technology", "capital", "entrepreneurship"],
   },
   {
@@ -171,7 +171,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 79,
     y: 33,
-    description: "Data is only as useful as the question you bring to it.",
+    description: "",
     related: ["ai", "decision-making", "observation"],
     projects: ["pet-wellness-ai"],
   },
@@ -182,7 +182,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 69,
     y: 3,
-    description: "Automation doesn't remove human judgment — it relocates it.",
+    description: "",
     related: ["ai", "technology", "efficiency"],
   },
   {
@@ -192,7 +192,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 46,
     y: 19,
-    description: "The best technology in the world is worthless until someone trusts it enough to use it.",
+    description: "",
     related: ["ai", "technology", "consumer-psychology"],
   },
 
@@ -216,7 +216,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 35,
     y: 55,
-    description: "Small teams making fast, reversible bets under real uncertainty.",
+    description: "Currently building Pets Blood Donation System in Japan.",
     related: ["entrepreneurship", "growth", "product", "strategy"],
   },
   {
@@ -226,7 +226,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 57,
     y: 41,
-    description: "Growth is a symptom of a real problem solved well, not a goal in itself.",
+    description: "",
     related: ["startups", "opportunity", "scarcity"],
   },
   {
@@ -236,7 +236,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 29,
     y: 45,
-    description: "Usually disguised as an inefficiency someone else has decided to ignore.",
+    description: "",
     related: ["entrepreneurship", "capital", "growth"],
     projects: ["other-ventures"],
   },
@@ -247,7 +247,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 53,
     y: 59,
-    description: "Deciding what not to do is usually harder than deciding what to do.",
+    description: "",
     related: ["startups", "investment-banking", "decision-making"],
   },
   {
@@ -257,7 +257,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 41,
     y: 60,
-    description: "The point where a belief about human behavior becomes something you can click on.",
+    description: "",
     related: ["startups", "entrepreneurship", "design"],
   },
 
@@ -270,7 +270,7 @@ export const thoughts: Thought[] = [
     x: 75,
     y: 50,
     description:
-      "Almost everything I'm curious about eventually comes back to why people do what they do.",
+      "",
     related: ["consumer-psychology", "human-behavior", "decision-making", "identity"],
   },
   {
@@ -280,7 +280,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 87,
     y: 44,
-    description: "People rarely buy what they say they want — they buy what they fear losing.",
+    description: "",
     related: ["behavior", "markets", "consumer-adoption", "storytelling"],
   },
   {
@@ -290,7 +290,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 64,
     y: 58,
-    description: "The variable every model quietly assumes away.",
+    description: "",
     related: ["behavior", "ai", "trust", "identity"],
   },
   {
@@ -300,7 +300,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 81,
     y: 61,
-    description: "Most decisions are made on incomplete information, dressed up afterward as certainty.",
+    description: "",
     related: ["behavior", "risk", "data", "incentives"],
     projects: ["pet-wellness-ai"],
   },
@@ -311,7 +311,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 91,
     y: 55,
-    description: "Half of consumption is signaling something to yourself.",
+    description: "",
     related: ["behavior", "human-behavior", "culture"],
   },
   {
@@ -321,7 +321,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 70,
     y: 39,
-    description: "The interface between a fact and a decision.",
+    description: "",
     related: ["consumer-psychology", "design", "communication"],
   },
 
@@ -334,7 +334,7 @@ export const thoughts: Thought[] = [
     x: 38,
     y: 23,
     description:
-      "Design is the discipline of deciding what a system should ignore.",
+      "Design by the product story-telling and target audiences' consumer behavior.",
     related: ["product", "observation", "storytelling", "curiosity"],
   },
   {
@@ -344,7 +344,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 29,
     y: 33,
-    description: "Most good ideas are just careful attention paid somewhere no one else was looking.",
+    description: "",
     related: ["design", "data", "curiosity"],
   },
   {
@@ -354,7 +354,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 44,
     y: 9,
-    description: "The thing I try hardest to protect.",
+    description: "",
     related: ["design", "observation", "entrepreneurship"],
     projects: ["other-ventures"],
   },
@@ -378,7 +378,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 28,
     y: 58,
-    description: "The slow, uneven process of ideas and capital learning to move faster than borders.",
+    description: "",
     related: ["japan", "economic-development", "community", "travel"],
   },
   {
@@ -409,7 +409,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 35,
     y: 71,
-    description: "How places, not just companies, compound or stagnate.",
+    description: "",
     related: ["globalization", "infrastructure", "capital"],
   },
   {
@@ -432,7 +432,7 @@ export const thoughts: Thought[] = [
     x: 66,
     y: 81,
     description:
-      "An industry where the incentives, the technology, and the emotion are more tangled than anywhere else I've looked.",
+      "",
     related: ["animals", "care", "access", "ai"],
     projects: ["connect", "pet-wellness-ai"],
   },
@@ -455,7 +455,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 74,
     y: 69,
-    description: "An underrated word for what most healthcare businesses are actually selling.",
+    description: "",
     related: ["healthcare", "animals", "community"],
     projects: ["connect"],
   },
@@ -478,7 +478,7 @@ export const thoughts: Thought[] = [
     size: "medium",
     x: 50,
     y: 87,
-    description: "The unit that decisions actually get made inside of, whatever the org chart says.",
+    description: "Community expands our network, broadens our perspectives, and creates opportunities through meaningful connections with others. I love to build the bridge through social events.",
     related: ["trust", "culture", "care", "networks"],
   },
   {
@@ -488,7 +488,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 61,
     y: 93,
-    description: "Value accrues to whoever sits at the densest intersection.",
+    description: "I believe networks reflects who you are.",
     related: ["community", "systems", "communication"],
   },
   {
@@ -498,7 +498,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 39,
     y: 91,
-    description: "Real or perceived, it's still the thing that moves people fastest.",
+    description: "",
     related: ["markets", "growth", "access"],
   },
   {
@@ -508,7 +508,7 @@ export const thoughts: Thought[] = [
     size: "small",
     x: 55,
     y: 71,
-    description: "Usually means moving the friction somewhere less visible.",
+    description: "",
     related: ["systems", "infrastructure", "automation"],
     projects: ["travel-infrastructure"],
   },
