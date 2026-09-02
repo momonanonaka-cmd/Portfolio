@@ -117,7 +117,7 @@ export const thoughts: Thought[] = [
     description:
       "Continuously learning how to use technology more effectively and staying current with emerging tools and skills. I’m interested in how technology can simplify processes, improve efficiency, and turn ideas into practical solutions.",
     related: ["ai", "systems", "infrastructure", "innovation", "japan"],
-    projects: ["connect", "travel-infrastructure"],
+    projects: ["loopi", "travel-infrastructure"],
   },
   {
     id: "ai",
@@ -140,7 +140,7 @@ export const thoughts: Thought[] = [
     y: 31,
     description: "",
     related: ["technology", "infrastructure", "efficiency"],
-    projects: ["connect"],
+    projects: ["loopi"],
   },
   {
     id: "infrastructure",
@@ -207,7 +207,7 @@ export const thoughts: Thought[] = [
     description:
       "Building things is the fastest way I've found to actually test an idea about how the world works.",
     related: ["startups", "capital", "innovation", "product", "opportunity"],
-    projects: ["connect", "pet-wellness-ai", "travel-infrastructure", "other-ventures"],
+    projects: ["loopi", "pet-wellness-ai", "travel-infrastructure", "other-ventures"],
   },
   {
     id: "startups",
@@ -434,7 +434,7 @@ export const thoughts: Thought[] = [
     description:
       "",
     related: ["animals", "care", "access", "ai"],
-    projects: ["connect", "pet-wellness-ai"],
+    projects: ["loopi", "pet-wellness-ai"],
   },
   {
     id: "animals",
@@ -446,7 +446,7 @@ export const thoughts: Thought[] = [
     description:
       "I care about animal welfare for its own sake, and I think it's an underbuilt category, technologically.",
     related: ["healthcare", "care", "community"],
-    projects: ["connect", "pet-wellness-ai"],
+    projects: ["loopi", "pet-wellness-ai"],
   },
   {
     id: "care",
@@ -457,7 +457,7 @@ export const thoughts: Thought[] = [
     y: 69,
     description: "",
     related: ["healthcare", "animals", "community"],
-    projects: ["connect"],
+    projects: ["loopi"],
   },
   {
     id: "access",

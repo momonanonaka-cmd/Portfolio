@@ -32,30 +32,41 @@ export interface Project {
  */
 export const projects: Project[] = [
   {
-    id: "connect",
-    title: "Connect",
+    id: "loopi",
+    title: "Loopi",
     category: "Animal Healthcare",
-    year: "2024",
+    year: "2024 — Present",
     status: "active",
     shortDescription:
-      "A real-time blood donor network for dogs — register, match, book, and chat.",
+      "A new infrastructure connecting companion-animal care in Japan — blood donation and disaster preparedness, in one loop.",
     longDescription:
-      "More than 15.6 million dogs and cats live in Japan, but unlike human medicine, Japan has no nationwide blood-supply network for them — veterinary hospitals largely have to secure donors themselves, and owners are sometimes asked to find a donor for their own pet. Connect.inc brings pet owners, eligible blood donors, and veterinary hospitals into one network: hospitals post urgent requests with blood type and available slots, owners register healthy dogs as donors with pedigree, medical history, and blood typing on file, and the two sides match, book, and chat directly for pre-visit screening. Connecting blood. Connecting owners. Connecting hospitals. Connecting lives.",
-    image: "/projects/connect.jpg",
+      "Loopi — \"Life, in the loop.\" — started from the same problem Connect set out to solve: more than 15.6 million dogs and cats live in Japan, but unlike human medicine, there's no nationwide blood-supply network for them, and no shared system connecting owners to hospitals beyond phone calls and LINE messages. Loopi Blood carries that forward — hospitals post urgent transfusion requests, owners register healthy dogs and cats as donors with blood type and medical history on file, and the two sides match directly. Loopi Alert extends that same registered health record to disaster preparedness, so the information that could save another animal's life one day could also protect your own pet during an emergency. The loop: Register → Match → Transfuse → Record.",
+    image: "/projects/loopi/home.jpg",
     gallery: [
       {
-        type: "image",
-        src: "/projects/connect/app-mockup-japanese.jpg",
-        label: "App Mockup — Japanese",
+        type: "video",
+        src: "/projects/loopi/demo.mp4",
+        poster: "/projects/loopi/demo-poster.jpg",
+        label: "Loopi — App Walkthrough",
       },
       {
         type: "image",
-        src: "/projects/connect/app-mockup-english.jpg",
-        label: "App Mockup — English",
+        src: "/projects/loopi/original-poster.jpg",
+        label: "Earlier Concept — Connect Brand Poster",
+      },
+      {
+        type: "image",
+        src: "/projects/loopi/concept-mockup-japanese.jpg",
+        label: "Earlier Concept — App Mockup (Japanese)",
+      },
+      {
+        type: "image",
+        src: "/projects/loopi/concept-mockup-english.jpg",
+        label: "Earlier Concept — App Mockup (English)",
       },
     ],
     externalUrl: "https://connecttblood.netlify.app/",
-    relatedThoughts: ["animals", "healthcare", "care", "technology", "systems", "japan"],
+    relatedThoughts: ["animals", "healthcare", "care", "technology", "systems", "japan", "infrastructure"],
   },
   {
     id: "pet-wellness-ai",
